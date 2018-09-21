@@ -14,6 +14,7 @@ class EmailClientTest {
 
     private Email email;
     private EmailClient emailClient;
+    private EmailService service;
     private ArrayList<String> toList;
     private ArrayList<String> ccList;
     private ArrayList<String> bccList;
