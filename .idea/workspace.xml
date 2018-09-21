@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9180e84-5abb-4656-9d44-7697b14c5382" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Email/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Email/EmailAccountBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/email/EmailAccountBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Email/EmailAccountBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Email/builders/EmailAccountBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Email/EmailBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Email/builders/EmailBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,10 +49,10 @@
         </entry>
       </file>
       <file leaf-file-name="EmailBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Email/builders/EmailBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailAccountTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmailAccountTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="833">
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailClientTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmailClientTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="217">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
@@ -121,10 +122,10 @@
         <option value="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Email/EmailClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/Email/EmailClientBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Email/Email.java" />
         <option value="$PROJECT_DIR$/src/test/java/email/EmailBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/Email/EmailBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java" />
       </list>
     </option>
   </component>
@@ -234,6 +235,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Email" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Email" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -258,7 +262,7 @@
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Email.*" />
+          <option name="PATTERN" value="Email.builders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,7 +285,7 @@
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Email.*" />
+          <option name="PATTERN" value="Email.builders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,7 +308,7 @@
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Email.*" />
+          <option name="PATTERN" value="Email.builders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,7 +331,7 @@
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Email.*" />
+          <option name="PATTERN" value="Email.builders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,7 +354,7 @@
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Email.*" />
+          <option name="PATTERN" value="Email.builders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,11 +475,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32882273" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32882273" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -662,7 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailAccountBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Email/builders/EmailAccountBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
@@ -686,18 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Email/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -715,10 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Email/builders/EmailBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -731,6 +722,18 @@
           <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
           </folding>
         </state>
       </provider>

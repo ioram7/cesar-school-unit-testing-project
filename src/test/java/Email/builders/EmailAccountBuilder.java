@@ -1,4 +1,4 @@
-package Email;
+package Email.builders;
 
 import java.time.Instant;
 

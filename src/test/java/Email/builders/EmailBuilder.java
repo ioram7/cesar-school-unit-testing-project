@@ -1,4 +1,6 @@
-package Email;
+package Email.builders;
+
+import Email.Email;
 
 import java.time.Instant;
 import java.util.Collection;

@@ -1,6 +1,6 @@
 package Email;
 
-import Email.EmailAccountBuilder;
+import Email.builders.EmailAccountBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
