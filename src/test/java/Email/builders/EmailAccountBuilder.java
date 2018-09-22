@@ -1,5 +1,7 @@
 package Email.builders;
 
+import Email.EmailAccount;
+
 import java.time.Instant;
 
 public class EmailAccountBuilder {

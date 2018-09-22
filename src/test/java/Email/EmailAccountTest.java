@@ -12,6 +12,12 @@ public class EmailAccountTest {
 
     private EmailAccountBuilder emailAccountBuilder;
 
+    private static final String VALID_USER = "roberto";
+    private static final String INVALID_USER = "! *roberto";
+    private static final String VALID_PASSWORD = "123456";
+    private static final String VALID_DOMAIN = "test.com";
+    private static final String INVALID_DOMAIN = "..test.com";
+
 
     @BeforeEach
     void setUp(){
@@ -23,45 +29,45 @@ public class EmailAccountTest {
     @Test
     void verifyUserRules_true() {
 
-        emailAccountBuilder.setUser("test")
-                .setDomain("test.com")
-                .setPassword("123456");
+        emailAccountBuilder.setUser(VALID_USER)
+                .setDomain(VALID_DOMAIN)
+                .setPassword(VALID_PASSWORD);
         Assertions.assertEquals(true, emailAccountBuilder.build().validateUserRules());
     }
 
     @Test
     void verifyUserRules_false() {
 
-        emailAccountBuilder.setUser("!!test")
-                .setDomain("test.com")
-                .setPassword("123456");
+        emailAccountBuilder.setUser(INVALID_USER)
+                .setDomain(VALID_DOMAIN)
+                .setPassword(VALID_PASSWORD);
         Assertions.assertEquals(true, emailAccountBuilder.build().validateUserRules());
     }
 
     @Test
     void validateDomainRules_true() {
 
-        emailAccountBuilder.setUser("test")
-                .setDomain("test.com")
-                .setPassword("123456");
+        emailAccountBuilder.setUser(VALID_USER)
+                .setDomain(VALID_DOMAIN)
+                .setPassword(VALID_PASSWORD);
         Assertions.assertEquals(true, emailAccountBuilder.build().validateDomainRules());
     }
 
     @Test
     void validateDomainRules_false() {
 
-        emailAccountBuilder.setUser("test")
-                .setDomain("..test.com")
-                .setPassword("123456");
+        emailAccountBuilder.setUser(VALID_USER)
+                .setDomain(INVALID_DOMAIN)
+                .setPassword(VALID_PASSWORD);
         Assertions.assertEquals(false, emailAccountBuilder.build().validateDomainRules());
     }
 
     @Test
     void verifyPasswordExpiration_true() {
 
-        emailAccountBuilder.setUser("test").
-                setDomain("test.com").
-                setPassword("123456").
+        emailAccountBuilder.setUser(VALID_USER).
+                setDomain(VALID_DOMAIN).
+                setPassword(VALID_PASSWORD).
                 setLastPasswordUpdate(Instant.now());
         Assertions.assertEquals(true, emailAccountBuilder.build().verifyPasswordExpiration());
 
@@ -71,9 +77,9 @@ public class EmailAccountTest {
 
     void verifyPasswordExpiration_false(){
 
-        emailAccountBuilder.setUser("test").
-                setDomain("test.com").
-                setPassword("123456").
+        emailAccountBuilder.setUser(VALID_USER).
+                setDomain(VALID_DOMAIN).
+                setPassword(VALID_PASSWORD).
                 setLastPasswordUpdate(Instant.now());
 
         Assertions.assertEquals(false,emailAccountBuilder.build().verifyPasswordExpiration());

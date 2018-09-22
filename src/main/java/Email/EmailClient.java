@@ -36,97 +36,95 @@ public class EmailClient implements EmailService {
     }
 
 
-        public boolean isValidEmail(Email email){
+    public boolean isValidEmail(Email email) {
 
 
-            boolean isValidTo = false;
-            boolean isValidFrom = false;
-            boolean isValidCc = false;
-            boolean isValidBcc = false;
-            boolean isValidCreateDate = false;
+        boolean isValidTo = false;
+        boolean isValidFrom = false;
+        boolean isValidCc = false;
+        boolean isValidBcc = false;
+        boolean isValidCreateDate = false;
 
-            for (String emailItem: email.getTo()) {
+        for (String emailItem : email.getTo()) {
 
-                if (isValidAddress(emailItem)){
+            if (isValidAddress(emailItem)) {
 
-                    isValidTo = true;
-                }
-
+                isValidTo = true;
             }
-
-            for (String emailItem: email.getCc()) {
-
-                if (isValidAddress(emailItem)){
-
-                    isValidCc = true;
-                }
-
-            }
-
-            for (String emailItem: email.getBcc()) {
-
-                if (isValidAddress(emailItem)){
-
-                    isValidBcc = true;
-                }
-
-            }
-
-            if (isValidAddress(email.getFrom())){
-
-                isValidFrom = true;
-            }
-
-            if(email.getCreationDate() != null)
-            {
-
-                isValidCreateDate = true;
-            }
-
-
-            return isValidTo && isValidCc && isValidBcc && isValidFrom && isValidCreateDate;
 
         }
 
+        for (String emailItem : email.getCc()) {
 
+            if (isValidAddress(emailItem)) {
 
-        public Collection<Email> emailList (EmailAccount account){
-
-            if (!(account.getPassword().length() > 6) || !account.verifyPasswordExpiration()) {
-                return emailService.emailList(account);
-
-            } else {
-                throw new RuntimeException();
+                isValidCc = true;
             }
-
 
         }
 
-        public boolean sendEmail (Email email){
+        for (String emailItem : email.getBcc()) {
 
-            if (this.isValidEmail(email)) {
-                return emailService.sendEmail(email);
+            if (isValidAddress(emailItem)) {
 
-            } else {
-                throw new RuntimeException();
+                isValidBcc = true;
             }
+
         }
 
-        public boolean createAccount (EmailAccount account){
+        if (isValidAddress(email.getFrom())) {
 
-            if (isValidAddress(email) && account.getPassword().length() > 6) {
+            isValidFrom = true;
+        }
 
-                account.setLastPasswordUpdate(Instant.now());
-                accounts.add(account);
+        if (email.getCreationDate() != null) {
 
-                return true;
+            isValidCreateDate = true;
+        }
 
-            } else {
 
-                return false;
-            }
+        return isValidTo && isValidCc && isValidBcc && isValidFrom && isValidCreateDate;
 
+    }
+
+
+    public Collection<Email> emailList(EmailAccount account) {
+
+        if (!(account.getPassword().length() > 6) || !account.verifyPasswordExpiration()) {
+            return emailService.emailList(account);
+
+        } else {
+            throw new RuntimeException();
         }
 
 
     }
+
+    public boolean sendEmail(Email email) {
+
+        if (this.isValidEmail(email)) {
+            return emailService.sendEmail(email);
+
+        } else {
+            throw new RuntimeException();
+        }
+    }
+
+    public boolean createAccount(EmailAccount account) {
+
+        boolean accountValue = false;
+
+        if (isValidAddress(email) && account.getPassword().length() >= 6) {
+
+            account.setLastPasswordUpdate(Instant.now());
+            accounts.add(account);
+            accountValue = true;
+
+
+        }
+
+        return accountValue;
+
+    }
+
+}
