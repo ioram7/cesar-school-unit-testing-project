@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Email.EmailClientTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in Email.EmailClientTest
+createAccount_true  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at Email.EmailClientTest.createAccount_true(EmailClientTest.java:177)
+
+isValidEmail_invalidScenario_invalidCc  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at Email.EmailClientTest.isValidEmail_invalidScenario_invalidCc(EmailClientTest.java:146)
+
+isValidEmail_invalidScenario_invalidTo  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at Email.EmailClientTest.isValidEmail_invalidScenario_invalidTo(EmailClientTest.java:129)
+
+createAccount_False  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at Email.EmailClientTest.createAccount_False(EmailClientTest.java:190)
+
+isValidAddress_false  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Email.EmailClientTest.isValidAddress_false(EmailClientTest.java:94)
+
+isValidEmail_invalidScenario_invalidBcc  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at Email.EmailClientTest.isValidEmail_invalidScenario_invalidBcc(EmailClientTest.java:163)
+

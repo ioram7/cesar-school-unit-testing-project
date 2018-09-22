@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Email.EmailAccountTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! - in Email.EmailAccountTest
+verifyPasswordExpiration_true  Time elapsed: 0.031 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Email.EmailAccountTest.verifyPasswordExpiration_true(EmailAccountTest.java:72)
+
+verifyUserRules_false  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Email.EmailAccountTest.verifyUserRules_false(EmailAccountTest.java:44)
+
