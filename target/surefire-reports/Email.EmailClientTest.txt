@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: Email.EmailClientTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 4, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in Email.EmailClientTest
+Tests run: 8, Failures: 4, Errors: 2, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in Email.EmailClientTest
 createAccount_true  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at Email.EmailClientTest.createAccount_true(EmailClientTest.java:177)
@@ -14,7 +14,7 @@ isValidEmail_invalidScenario_invalidTo  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
 	at Email.EmailClientTest.isValidEmail_invalidScenario_invalidTo(EmailClientTest.java:129)
 
-createAccount_False  Time elapsed: 0 s  <<< ERROR!
+createAccount_False  Time elapsed: 0.043 s  <<< ERROR!
 java.lang.NullPointerException
 	at Email.EmailClientTest.createAccount_False(EmailClientTest.java:190)
 

@@ -1,28 +1,40 @@
 package Email;
 
 import java.time.Instant;
-
 import java.time.temporal.ChronoUnit;
 
 
 
 public class EmailAccount {
 
-    private String user;
-    private String domain;
-    private String password;
-    private Instant lastPasswordUpdate;
-
-
     public EmailAccount(String user, String domain, String password, Instant lastPasswordUpdate) {
-
         this.user = user;
         this.domain = domain;
         this.password = password;
         this.lastPasswordUpdate = lastPasswordUpdate;
-
     }
 
+    public String getUser() {
+        return user;
+    }
+
+    private String user;
+
+    public String getDomain() {
+        return domain;
+    }
+
+    private String domain;
+
+    public String getPassword() {
+        return password;
+    }
+
+    private String password;
+
+    public Instant getLastPasswordUpdate() {
+        return lastPasswordUpdate;
+    }
 
     public void setUser(String user) {
 
@@ -39,8 +51,10 @@ public class EmailAccount {
         this.password = password;
     }
 
-    public String getPassword() {
-        return password;
+    private Instant lastPasswordUpdate;
+
+    public void setLastPasswordUpdate(Instant lastPasswordUpdate) {
+        this.lastPasswordUpdate = lastPasswordUpdate;
     }
 
     public boolean validateUserRules(){
@@ -53,30 +67,23 @@ public class EmailAccount {
         return domain.matches("\\b((?=[a-z0-9-]+\\.)[a-z0-9]+(-[a-z0-9]+)*\\.)+[a-z]{2,}\\b");
     }
 
+    public boolean verifyPasswordExpiration() {
 
-    public void setLastPasswordUpdate(Instant lastPasswordUpdate){
-        this.lastPasswordUpdate = lastPasswordUpdate;
 
-    }
-
-    public boolean verifyPasswordExpiration(){
-
-            Instant verify;
-            Instant now = Instant.now();
-            verify = now.minus(91, ChronoUnit.DAYS);
+        Instant verify;
+        Instant now = Instant.now();
+        verify = now.minus(91, ChronoUnit.DAYS);
 
         if (verify.isAfter(lastPasswordUpdate)) {
 
             return true;
 
-        }
-
-        else {
+        } else {
 
             return false;
-    }
+        }
+
 
     }
-
 
 }

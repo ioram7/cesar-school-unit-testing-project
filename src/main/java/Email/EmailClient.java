@@ -23,16 +23,43 @@ public class EmailClient implements EmailService {
 
     }
 
-    public boolean isValidAddress(String emailAddress) {
 
-        regexPattern = Pattern.compile("^[(a-zA-Z-0-9-\\_\\+\\.)]+@[(a-z-A-z)]+\\.[(a-zA-z)]{2,3}$");
-        regMatcher = regexPattern.matcher(emailAddress);
+    public boolean isValidAddress(String emailAddress){
 
-        if (regMatcher.matches()) {
-            return true;
-        } else {
-            return false;
+        boolean userIsValid = false;
+        boolean domainIsValid = false;
+
+        String[] listaEmail = emailAddress.split("@");
+
+        String patternUser = "[a-zA-Z0-9\\u00C0-\\u00FF _.-]+";
+        String patternDomain1 = "[a-zA-Z0-9\\u00C0-\\u00FF .]+";
+
+
+
+        if (listaEmail[0].matches(patternUser)){
+
+            userIsValid = true;
+
         }
+
+        if (listaEmail.length >= 2){
+
+            if (listaEmail[1].matches(patternDomain1))
+            {
+                domainIsValid = true;
+
+            }
+
+            if (listaEmail[1].startsWith(".") || listaEmail[1].endsWith(".") || listaEmail[1].contains(".."))
+            {
+
+                domainIsValid = false;
+            }
+
+        }
+
+        return userIsValid && domainIsValid;
+
     }
 
 
@@ -54,23 +81,6 @@ public class EmailClient implements EmailService {
 
         }
 
-        for (String emailItem : email.getCc()) {
-
-            if (isValidAddress(emailItem)) {
-
-                isValidCc = true;
-            }
-
-        }
-
-        for (String emailItem : email.getBcc()) {
-
-            if (isValidAddress(emailItem)) {
-
-                isValidBcc = true;
-            }
-
-        }
 
         if (isValidAddress(email.getFrom())) {
 
@@ -102,22 +112,32 @@ public class EmailClient implements EmailService {
 
     public boolean sendEmail(Email email) {
 
-        if (this.isValidEmail(email)) {
-            return emailService.sendEmail(email);
+        boolean result = false;
 
-        } else {
+        if (isValidEmail(email))
+        {
+            result = emailService.sendEmail(email);
+
+        }else{
+
             throw new RuntimeException();
+
         }
+
+        return result;
+
     }
+
 
     public boolean createAccount(EmailAccount account) {
 
         boolean accountValue = false;
 
+        String email = account.getUser() + account.getDomain();
+
         if (isValidAddress(email) && account.getPassword().length() >= 6) {
 
             account.setLastPasswordUpdate(Instant.now());
-            accounts.add(account);
             accountValue = true;
 
 
