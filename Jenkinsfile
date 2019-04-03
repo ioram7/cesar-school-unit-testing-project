@@ -48,15 +48,10 @@ node {
             echo 'Executa sempre.'
        }
 
-       withCredentials([string(credentialsId: 'segredo', variable: 'SEGREDO')]) {
-         sh '''
-           set +x
-           echo $SEGREDO
-         '''
-       }
+      
       }
     }
-    stage('Test') {
+    stage('Tests') {
       node() {
         echo 'Testing..'
         parallel FrontendTests: { echo 'Testing Frontend..' },
@@ -72,13 +67,7 @@ node {
         sh 'cat result'
         archiveArtifacts artifacts: '**/result', fingerprint: true
 
-        withAWS(credentials: 'aws-ioram') {
-            env.A oad (bucket:"devops-school",
-                 path:'devops/',
-                 includePathPattern: '**/*',
-                 excludePathPattern:'**/*.svg')
-        }
 
-      }
+         }
     }
 }
