@@ -56,6 +56,9 @@ node {
         echo 'Testing..'
         parallel FrontendTests: { echo 'Testing Frontend..' },
                  BackendTests:  { echo 'Testing Backend..' }
+
+        git url: 'https://github.com/wvffreitas/devopsproject.git'
+        def mvnHome = tool 'maven'
       }
     }
     stage('Deploy') {
