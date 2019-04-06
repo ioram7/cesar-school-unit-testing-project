@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9180e84-5abb-4656-9d44-7697b14c5382" name="Default" comment="" />
+    <list default="true" id="b9180e84-5abb-4656-9d44-7697b14c5382" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_25_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_26_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtividadeUnitTestCesar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtividadeUnitTestCesar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+            <state relative-caret-position="331">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -37,17 +49,17 @@
       <file leaf-file-name="EmailClientTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
+            <state relative-caret-position="2584">
               <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailAccountTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmailAccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="731">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -55,7 +67,7 @@
       <file leaf-file-name="EmailClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Email/EmailClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
+            <state relative-caret-position="454">
               <caret line="146" selection-start-line="146" selection-end-line="146" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,98 +146,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AtividadeUnitTestCesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AtividadeUnitTestCesar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Email" type="462c0819:PsiDirectoryNode" />
-              <item name="builders" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Tests">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5804598" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -254,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailClientTest.createAccount_False">
+  <component name="RunManager" selected="JUnit.EmailAccountTest.validateDomainRules_false">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -281,7 +215,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmailClientTest.createAccount_False" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailAccountTest.validateDomainRules_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
@@ -292,8 +226,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Email" />
-      <option name="MAIN_CLASS_NAME" value="Email.EmailClientTest" />
-      <option name="METHOD_NAME" value="createAccount_False" />
+      <option name="MAIN_CLASS_NAME" value="Email.EmailAccountTest" />
+      <option name="METHOD_NAME" value="validateDomainRules_true" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -304,7 +238,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmailClientTest.isValidAddress_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailAccountTest.verifyUserRules_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadeUnitTestCesar" />
       <extension name="coverage">
         <pattern>
@@ -315,8 +249,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Email" />
-      <option name="MAIN_CLASS_NAME" value="Email.EmailClientTest" />
-      <option name="METHOD_NAME" value="isValidAddress_false" />
+      <option name="MAIN_CLASS_NAME" value="Email.EmailAccountTest" />
+      <option name="METHOD_NAME" value="verifyUserRules_false" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EmailAccountTest.verifyUserRules_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadeUnitTestCesar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Email" />
+      <option name="MAIN_CLASS_NAME" value="Email.EmailAccountTest" />
+      <option name="METHOD_NAME" value="verifyUserRules_true" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -340,29 +297,6 @@
       <option name="PACKAGE_NAME" value="Email" />
       <option name="MAIN_CLASS_NAME" value="Email.EmailClientTest" />
       <option name="METHOD_NAME" value="isValidAddress_true" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EmailClientTest.isValidEmail_invalidScenario_invalidCc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadeUnitTestCesar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Email.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Email" />
-      <option name="MAIN_CLASS_NAME" value="Email.EmailClientTest" />
-      <option name="METHOD_NAME" value="isValidEmail_invalidScenario_invalidCc" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -412,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EmailClientTest.isValidEmail_invalidScenario_invalidCc" />
-      <item itemvalue="JUnit.EmailClientTest.isValidAddress_false" />
-      <item itemvalue="JUnit.EmailClientTest.createAccount_False" />
+      <item itemvalue="JUnit.EmailAccountTest.verifyUserRules_true" />
+      <item itemvalue="JUnit.EmailAccountTest.verifyUserRules_false" />
       <item itemvalue="JUnit.EmailClientTest.isValidAddress_true" />
+      <item itemvalue="JUnit.EmailAccountTest.validateDomainRules_true" />
       <item itemvalue="JUnit.EmailAccountTest.validateDomainRules_false" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailClientTest.createAccount_False" />
         <item itemvalue="JUnit.EmailAccountTest.validateDomainRules_false" />
-        <item itemvalue="JUnit.EmailClientTest.isValidEmail_invalidScenario_invalidCc" />
-        <item itemvalue="JUnit.EmailClientTest.isValidAddress_false" />
+        <item itemvalue="JUnit.EmailAccountTest.validateDomainRules_true" />
+        <item itemvalue="JUnit.EmailAccountTest.verifyUserRules_true" />
         <item itemvalue="JUnit.EmailClientTest.isValidAddress_true" />
+        <item itemvalue="JUnit.EmailAccountTest.verifyUserRules_false" />
       </list>
     </recent_temporary>
   </component>
@@ -442,35 +376,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailClientTest_isValidEmail_invalidScenario_invalidCc - 2018.12.02 at 15h 58m 30s.xml">
-      <configuration name="EmailClientTest.isValidEmail_invalidScenario_invalidCc" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_verifyUserRules_true - 2019.04.06 at 17h 41m 43s.xml">
+      <configuration name="EmailAccountTest.verifyUserRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_isValidAddress_false - 2018.12.02 at 16h 01m 47s.xml">
-      <configuration name="EmailClientTest.isValidAddress_false" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_verifyUserRules_true - 2019.04.06 at 17h 43m 06s.xml">
+      <configuration name="EmailAccountTest.verifyUserRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_isValidEmail_invalidScenario_invalidCc - 2018.12.02 at 16h 01m 55s.xml">
-      <configuration name="EmailClientTest.isValidEmail_invalidScenario_invalidCc" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_verifyUserRules_true - 2019.04.06 at 17h 45m 51s.xml">
+      <configuration name="EmailAccountTest.verifyUserRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_createAccount_False - 2018.12.02 at 16h 02m 02s.xml">
-      <configuration name="EmailClientTest.createAccount_False" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_verifyUserRules_true - 2019.04.06 at 17h 47m 02s.xml">
+      <configuration name="EmailAccountTest.verifyUserRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_isValidAddress_true - 2018.12.02 at 16h 02m 34s.xml">
-      <configuration name="EmailClientTest.isValidAddress_true" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_validateDomainRules_true - 2019.04.06 at 18h 26m 17s.xml">
+      <configuration name="EmailAccountTest.validateDomainRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_isValidAddress_false - 2018.12.02 at 16h 02m 39s.xml">
-      <configuration name="EmailClientTest.isValidAddress_false" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_validateDomainRules_true - 2019.04.06 at 18h 29m 43s.xml">
+      <configuration name="EmailAccountTest.validateDomainRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_isValidEmail_invalidScenario_invalidCc - 2018.12.02 at 16h 02m 44s.xml">
-      <configuration name="EmailClientTest.isValidEmail_invalidScenario_invalidCc" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_validateDomainRules_true - 2019.04.06 at 18h 33m 29s.xml">
+      <configuration name="EmailAccountTest.validateDomainRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_createAccount_False - 2018.12.02 at 16h 02m 50s.xml">
-      <configuration name="EmailClientTest.createAccount_False" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest_validateDomainRules_true - 2019.04.06 at 18h 35m 30s.xml">
+      <configuration name="EmailAccountTest.validateDomainRules_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest_validateDomainRules_false - 2018.12.02 at 16h 03m 59s.xml">
+    <history-entry file="EmailAccountTest_validateDomainRules_true - 2019.04.06 at 19h 23m 31s.xml">
+      <configuration name="EmailAccountTest.validateDomainRules_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailAccountTest_validateDomainRules_false - 2019.04.06 at 19h 24m 40s.xml">
       <configuration name="EmailAccountTest.validateDomainRules_false" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmailClientTest_createAccount_False - 2018.12.02 at 16h 05m 41s.xml">
-      <configuration name="EmailClientTest.createAccount_False" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -483,37 +417,66 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3282123" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3282123" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3282123" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32904884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42318437" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3282123" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.1933657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" weight="0.19660194" />
       <window_info id="Structure" order="1" sideWeight="0.5006766" side_tool="true" weight="0.18059126" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.18059126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.18059126" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32969153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5652985" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3282123" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.19660194" />
+      <window_info id="Structure" order="1" sideWeight="0.5006766" side_tool="true" weight="0.18059126" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3282123" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32960895" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32969153" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32904884" />
+      <window_info id="Favorites" order="6" sideWeight="0.50139666" side_tool="true" weight="0.18059126" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -527,8 +490,20 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -829,16 +804,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="2584">
+          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Email/EmailClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
+        <state relative-caret-position="454">
           <caret line="146" selection-start-line="146" selection-end-line="146" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -846,17 +821,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailClientTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+        <state relative-caret-position="331">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Email/EmailAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="731">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -869,7 +844,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -925,11 +900,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.apiguardian:apiguardian-api:1.0.0</last-edited>
+          <last-edited>Maven: org.junit.jupiter:junit-jupiter-engine:5.2.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5804598" />
               </list>
             </option>
           </splitter-proportions>
