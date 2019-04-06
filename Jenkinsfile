@@ -58,7 +58,7 @@ node {
                  BackendTests:  { echo 'Testing Backend..' }
 
         git url: 'https://github.com/wvffreitas/devopsproject.git'
-        def mvnHome = tool 'maven'
+        def mvnHome = tool 'maven 3.6.0'
       }
     }
     stage('Deploy') {
