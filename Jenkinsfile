@@ -57,7 +57,7 @@ node {
         parallel FrontendTests: { echo 'Testing Frontend..' },
                  BackendTests:  { echo 'Testing Backend..' }
 
-        git url: 'https://github.com/wvffreitas/devopsproject.git'
+        git url: 'https://github.com/robertoferraz02/cesar-school-unit-testing-project'
         def mvnHome = tool 'maven 3.6.0'
       }
     }
