@@ -58,7 +58,7 @@ node {
                  BackendTests:  { echo 'Testing Backend..' }
 
         git url: 'https://github.com/robertoferraz02/cesar-school-unit-testing-project'
-        def mvnHome = tool 'maven 3.6.0'
+        def mvnHome = tool 'maven'
         sh "${mvnHome}/bin/mvn -B -D maven.test.failure.ignore verify"
         archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
       }
